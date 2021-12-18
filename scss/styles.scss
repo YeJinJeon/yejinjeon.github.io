@@ -690,6 +690,47 @@ footer {
 
 /*
     -------------------------------
+    Research
+    -------------------------------
+*/
+
+.research {
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto 30px auto;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 4px;
+}
+
+.research-image {
+    float: left;
+}
+
+.research-info {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 300px;
+    padding: 15px;
+
+    h3 {
+        font-size: 1.5em;
+        font-weight: 300;
+        color: $heading;
+        margin: 0 0 15px 0;
+    }
+
+    p {
+        color: $text;
+        margin: 0 0 15px 0;
+        font-size: 0.9em;
+    }
+}
+
+/*
+
+    -------------------------------
     ----- 9. Skills Styles -----
     -------------------------------
 */
