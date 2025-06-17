@@ -341,6 +341,15 @@ footer {
     padding-top: 5px
 }
 
+.social-icons a {
+    margin: 0 10px;
+    color: white; /* or your desired color */
+}
+
+.social-icons a:hover {
+    color: #ccc;
+}
+
 @keyframes pulsate {
     0% {
         transform: scale(1, 1)
