@@ -342,16 +342,16 @@ footer {
 }
 
 .social-icons a {
-    margin: 0 10px;
+    margin: 2px 10px;
     color: white; /* or your desired color */
 }
 
 .social-icons a:hover {
-    color: #ccc;
+    color: white;
 }
 
 .social-icons i {
-    font-size: 36px; /* Increase this value for larger icons */
+    font-size: 40px; /* Increase this value for larger icons */
 }
 
 @keyframes pulsate {
