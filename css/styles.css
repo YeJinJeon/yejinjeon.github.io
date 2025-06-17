@@ -350,6 +350,10 @@ footer {
     color: #ccc;
 }
 
+.social-icons i {
+    font-size: 36px; /* Increase this value for larger icons */
+}
+
 @keyframes pulsate {
     0% {
         transform: scale(1, 1)
