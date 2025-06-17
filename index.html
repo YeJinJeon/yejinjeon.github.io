@@ -56,6 +56,14 @@
             <img src="./images/yejin_profile2_square.jpg" class="img-circle" width=300px> <br/>
             <a href="https://yejinjeon.github.io/docs/YeJinJeon_Resume.pdf" class="btn-rounded-white">Download Resume</a>
         </div>
+        <div class="row social">
+            <a href="https://github.com/YeJinJeon" title="GitHub" rel="external nofollow noopener" target="_blank">
+                <i class="fa fa-github" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/yejin-jeon-794662167/" title="LinkedIn" rel="external nofollow noopener" target="_blank">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+        </div>
         <!-- End #lead-content -->
 
         <div id="lead-overlay"></div>
@@ -79,26 +87,18 @@
                     <p>
                         I am a machine learning research engineer at University of California, San Diego working with Professor <a href="https://scungao.github.io/">Sicun Gao</a>.
                         I received a Master Degree of Computer Science and Engineering with a specialization of AI/ML at UCSD in June, 2024. You can find my Master's thesis <a href="https://yejinjeon.github.io/docs/YeJinJeon-Master-Thesis.pdf">here</a>.
-                    <br /></p>
+                    </p>
                     <p>
                         My research interest is to develop a general search and optimization algorithm for NP hard problems that tackle safety and fairness on our community. <br>
                         I am working on imporving LLM saftey by uncovering their vulnerabilities that allow mallicious users to generate harmful content. 
                         Specifically, I focus on adversarial prompt generation that can be viewed as combinatorial optimization problem on discrete tokens. 
                         Furthermore I develop black box algorithm to general combinatorial optimization problems such as jop shop problem, taking heuristic learning approach with guidance of mixed integer programming solvers and generative model. <br>
                         Previously, I conducted computer vision research with medical images at Ewha Womans University and Korea University in Korea. 
-                    <br /></p>
+                    </p>
                     <p>
                         I'm always looking for new opportunities to learn and grow. You can find my full cv <a href="https://yejinjeon.github.io/docs/YeJinJeon_Resume.pdf">here</a> or contact me at <a href="mailto: yejeon@ucsd.edu">yejeon@ucsd.edu</a>.
-                    <br /></p>
+                    </p>
                 </div>
-                <div class="row social">
-                    <a href="https://github.com/YeJinJeon" title="GitHub" rel="external nofollow noopener" target="_blank">
-                        <i class="fa fa-github" aria-hidden="true"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/yejin-jeon-794662167/" title="LinkedIn" rel="external nofollow noopener" target="_blank">
-                        <i class="fa fa-linkedin" aria-hidden="true"></i>
-                    </a>
-                    </div>
             </div>
         </div>
     </div>
@@ -108,12 +108,21 @@
         <h2 class="heading">Experience</h2>
         <div id="experience-timeline">
 
-            <div data-date="March 2023 – Present">
+            <div data-date="October 2024 – Present">
                 <h3>University of California, San Diego</h3>
                 <h4>Machine learning researcher</h4>
                 <ul>
-                    <li>Researching to develop a general search algorithm that enables faster optimal decision-making on various combinatorial optimization problems</li>
-                    <li>Taking a learning-based approach with mixed integer programming for efficient search in large solution space</li>
+                    <li>LLM Safety: Exploring different LLM control methods, adversarial prompting, steering latent space, and fine-tuning, to mitigate undesirable behaviors in LLMs by discovering their vulnerabilities</li>
+                    <li>Combinatorial optimization with energy-based model: Developing a general search algorithm for accelerated optimal decision-making in non-convex problems, leveraging mixed-integer programming and energy-based model guidance in large search spaces</li>
+                </ul>
+            </div>
+
+            <div data-date="June 2022 - Augsut 2022 & June 2020 – September 2020">
+                <h3>Korea University</h3>
+                <h4>Machine learning researcher at Quantitative Imaging & Informatics Lab</h4>
+                <ul>
+                    <li>Image Generation: Generates blood flow imaging from 4D brain MR imaging to predict stroke progression</li>
+                    <li>Improved accuracy through incorporating heavy backbone and multitask learning on 3D U-Net model and exploited the model to different types of MRI to minimize imaging protocol in clinical setting</li>
                 </ul>
             </div>
 
@@ -121,19 +130,8 @@
                 <h3>Tanker Inc.</h3>
                 <h4>Software Engineer Intern</h4>
                 <ul>
-                    <li>Led the machine learning based systems development, spearheading migrations of old systems to adopt modern ML based solutions</li>
-                    <li>Delivered the automated employee assignment system for Industrial Bank of Korea using Google OR-Tools and reinforcement learning</li>
-                    <li>Overhauled the old PDF converter by developing a computer-vision based PDF to Excel converter, reducing errors in PDF reader</li>
-                    <li>Contributed to the real estate price prediction task, delivered 10% accuracy improvements of existing ML algorithms by incorporating predicted price through linear regression as a training feature</li>
-                </ul>
-            </div>
-
-            <div data-date="May 2020 – September 2020">
-                <h3>Korea University</h3>
-                <h4>Machine learning researcher at Quantitative Imaging & Informatics Lab</h4>
-                <ul>
-                    <li>Researched collateral status image generation of Acute Ischemic Stroke patient brain MRIs through 3D multitask learning. Presented work at SPIE Medical Imaging 2021</li>
-                    <li>Implemented image generation as a regression problem with U-net and improved the performance by adding an ordinal regression task into the final layer of the U-net</li>
+                    <li>End-to-End ML Pipeline for real estate price prediction: Delivered 5% accuracy improvements on XGBoost algorithm by feature engineering and reduced errors in data extraction from documents by developing a PDF-to-Excel OCR model</li>
+                    <li>Implemented REST API to convey model output and integrated my code through Docker and Git Flowg</li>
                 </ul>
             </div>
 
@@ -141,8 +139,9 @@
                 <h3>Electronics and Telecommunications Research Institute</h3>
                 <h4>Research Intern</h4>
                 <ul>
-                    <li>Developed a computer vision model used to detect smuggling and dangerous goods from airport security images</li>
-                    <li>Implemented a masking algorithm to create training labels and trained SSD, YOLO, and RCNN based object detection models</li>
+                    <li>Object detection: Tested SSD, YOLO, and RCNN-based models to detect smugglings from airport security images</li>
+                    <li>Participated in data acquisition to generate synthesized images with real contrabanded goods from airport </li>
+                    <li>Developed segmentation algorithm to generate label data on synthesized images using Python image processing library</li>
                 </ul>
             </div>
 
